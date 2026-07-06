@@ -3,7 +3,7 @@
 A clean, responsive To-Do List application built with vanilla web technologies, focusing on data retention and input security.
 
 ## 🚀 Live Demo
-
+https://gauravgupta926099-lang.github.io/frontend-projects/vanilla-projects/todo-list-app/
 
 ## 🛠️ Key Engineering Features
 * **State Persistence:** Implemented `localStorage` syncing with full serialization (`JSON.stringify`/`JSON.parse`) so user data survives page refreshes.
