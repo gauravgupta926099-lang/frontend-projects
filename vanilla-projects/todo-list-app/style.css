@@ -1,0 +1,93 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#111827;
+}
+#heading{
+    color:#10b981;
+    width:200px;
+    height:45px;
+    text-align:center;
+    border:2px solid white;
+    border-radius:5px;
+}
+#headbox{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#adder{
+   display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#btn{
+margin:10px;
+font-weight:bold;
+color:white;
+background-color:#1f2937;
+
+}
+#clearBtn{
+margin:10px;
+font-weight:bold;
+color:white;
+background-color:#ff4609;
+
+}
+#taskadd{
+    margin:10px;
+font-weight:bold;
+
+}
+#tasks{
+    margin-top:50px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   
+}
+.name{
+    font-weight:bold;
+    text-transform:capitalize;
+}
+.taskCard{
+    background-color:#1f2937;
+    color:white;
+    width:200px;
+   
+    margin:10px;
+    border:1px white solid;
+    border-radius:10px;
+     display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px;
+    transition: transform 0.2s ease-out;
+}
+.taskCard:hover{
+transform:scale(1.1);
+}
+.tick{
+    background-color:rgb(84, 215, 84);
+    margin:5px;
+ transition: transform 0.2s ease-out;
+}
+.tick:hover{
+    transform:scale(1.2);
+    background-color:rgb(12, 180, 99);
+}
+.cross{
+    background-color:red;
+     margin:5px;
+      transition: transform 0.2s ease-out;
+}
+.cross:hover{
+    transform:scale(1.2);
+    background-color:rgb(122, 8, 2);
+}
+.completed{
+    text-decoration:line-through;
+    opacity: 0.5;
+}
