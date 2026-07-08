@@ -16,16 +16,22 @@ A sleek, responsive, and interactive Password Generator built with **React** and
 *   **Styling:** Tailwind CSS
 *   **Build Tool:** Vite / Create React App
 
-## Getting Started
+## Getting Started Locally
 
-Follow these steps to set up and run the project locally.
+Follow these steps to get a local copy of the project up and running on your machine.
 
 ### Prerequisites
 
-Make sure you have Node.js installed on your machine.
+Make sure you have Node.js installed on your computer.
 
-### Installation
-
+### Setup Steps
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/password-generator.git](https://github.com/your-username/password-generator.git)
+   git clone [https://github.com/gauravgupta926099-lang/frontend-projects.git](https://github.com/gauravgupta926099-lang/frontend-projects.git)
+2. **Install dependencies:**
+    ```bash
+   npm install
+3. Run the development server:
+   ```bash
+   npm run dev
+npm run dev
