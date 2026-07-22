@@ -1,16 +1,59 @@
-# React + Vite
+# 📝 blogIt - Full-Stack Blog Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive full-stack blogging web application built with **React** and **Appwrite**. This project allows users to seamlessly register, sign in, create, edit, publish, and manage rich text blog posts with custom image uploads.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🔐 **Authentication & Authorization:** Secure user registration, login, and session persistence using Appwrite Account services.
+* ✍️ **Rich Text Editor:** Fully interactive WYSIWYG editor powered by TinyMCE / React Hook Form for crafting detailed posts.
+* 🖼️ **Image Storage:** Upload, preview, and update blog featured images directly using Appwrite Storage Buckets.
+* 📂 **Database Management:** Complete CRUD functionality for user posts backed by Appwrite Databases.
+* ⚡ **Global State Management:** Fast, predictable state management using **Redux Toolkit** (`authSlice`).
+* 🎨 **Modern Responsive UI:** Clean visual styling styled with **Tailwind CSS**.
+* 🛣️ **Client-Side Routing:** Dynamic nested routes and active link navigation handled with **React Router v6/v7**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### **Frontend**
+* **Framework:** React.js (Vite)
+* **State Management:** Redux Toolkit (`@reduxjs/toolkit`, `react-redux`)
+* **Routing:** React Router DOM (`react-router-dom`)
+* **Form Management:** React Hook Form (`react-hook-form`)
+* **Styling:** Tailwind CSS
+
+### **Backend-as-a-Service (BaaS)**
+* **Appwrite:**
+  * **Auth:** User Account Management
+  * **Databases:** Custom `articles` Table & Indexing
+  * **Storage:** Bucket storage for featured images
+
+---
+
+## 📁 Project Structure
+
+```text
+blogIt/
+├── src/
+│   ├── appwrite/          # Appwrite service wrappers (Auth, Database, Storage)
+│   ├── components/        # Reusable UI components (Header, Footer, PostCard, Input, Button)
+│   ├── conf/              # Environment variable configuration mapping
+│   ├── features/          # Redux slice definitions (authSlice.js)
+│   ├── pages/             # App views (Home, Login, Signup, AllPosts, AddPost, EditPost, Post)
+│   ├── store/             # Redux Store configuration
+│   ├── App.jsx            # Main App layout wrapper with dynamic Outlet
+│   └── main.jsx           # Root entry point with Redux Provider
+
+## 📦 Getting Started
+1. Clone the Repository
+  git clone https://github.com/gauravgupta926099-lang/frontend-projects.git
+2. Install Dependencies
+  npm install
+3. Run the Development Server
+  npm run dev
+├── .env                   # Local environment variables
+├── .gitignore             # Ignored tracking rules
+└── package.json
