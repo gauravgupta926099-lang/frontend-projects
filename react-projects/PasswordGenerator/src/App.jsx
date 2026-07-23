@@ -44,7 +44,7 @@ function App() {
             setCharactersAllowed(!characters);
             
           }} defaultChecked={numbers} className="mt-8" ></input>
-          <label for="checkbox " className="text-white mx-8"> allow special characters</label>
+          <label for="checkbox " className="text-cyan-600 mx-8"> allow special characters</label>
         </div>
       </div></div>
     </>
