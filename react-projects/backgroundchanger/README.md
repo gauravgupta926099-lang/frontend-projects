@@ -13,8 +13,8 @@ A dynamic single-page React application designed to switch the page's background
 
 ## 💡 Key Takeaways
 
-* **Declarative Programming:** Transitioned from imperative DOM manipulation (like manually changing styles in vanilla JS) to a declarative model where changes in state automatically drive the visual presentation.
-* **Dynamic Utility Binding:** Applied conditional styling methods to seamlessly inject color values dynamically into the component's markup.
+* **Declarative Programming:**  Transitioned from imperative DOM manipulation (like manually changing styles in vanilla JS) to a declarative model where changes in state automatically drive the visual presentation.
+* **Dynamic Utility Binding:**  Applied conditional styling methods to seamlessly inject color values dynamically into the component's markup.
 
 ---
 
