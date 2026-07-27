@@ -14,6 +14,7 @@ function App() {
             <Button color="orange" onClick={() => setColor("orange")} />
             <Button color="cyan" onClick={() => setColor("cyan")} />
             <Button color="black" onClick={()=>setColor("black")}/>
+             <Button color="gray" onClick={()=>setColor("gray")}/>
         </div>
     </div>
     )
