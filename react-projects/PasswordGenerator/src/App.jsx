@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect,useRef} from 'react'
 
 
 function App() {
-  const [length, setLength] = useState(25);
+  const [length, setLength] = useState(30);
   const [numbers, setNumbersAllowed] = useState(false);
   const [characters, setCharactersAllowed] = useState(false);
   const [password, setPassword] = useState("");
@@ -29,7 +29,7 @@ function App() {
           }}>Copy</button>
         </div>
         <div>
-          <input type="range" className="mt-8" min={10} max={50} onChange={(e) => { setLength(e.target.value) }}></input>
+          <input type="range" className="mt-8" min={10} max={60} onChange={(e) => { setLength(e.target.value) }}></input>
           <label className="text-white font-bold m-7">length is {length}</label>
         </div>
         <div >
