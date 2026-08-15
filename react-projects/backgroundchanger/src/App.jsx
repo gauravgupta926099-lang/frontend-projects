@@ -5,7 +5,7 @@ function App() {
 
     let [backgroundColor, setColor] = useState("black");
     return (<div className="h-dvh bg-black w-dvw" style={{ backgroundColor }}>
-        <div className="w-dvw flex items-center rounded-xl justify-around p-2 bg-white">
+        <div className="w-dvw flex items-center rounded-xl justify-around p-3 bg-white">
             <Button color="red" onClick={() => setColor("red")} />
             <Button color="blue" onClick={() => setColor("blue")} />
             <Button color="green" onClick={() => setColor("green")} />
