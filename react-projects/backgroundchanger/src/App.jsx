@@ -3,7 +3,7 @@ import './App.css'
 import Button from './button'
 function App() {
 
-    let [backgroundColor, setColor] = useState("black");
+    let [backgroundColor, setColor] = useState("red");
     return (<div className="h-dvh bg-black w-dvw" style={{ backgroundColor }}>
         <div className="w-dvw flex items-center rounded-xl justify-around p-3 bg-white">
             <Button color="red" onClick={() => setColor("red")} />
