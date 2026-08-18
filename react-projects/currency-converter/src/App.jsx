@@ -31,7 +31,7 @@ function App() {
 
       </div>
       <div className="relative w-full h-0.5">
-        <button className="absolute left-1/2 -translate-1/2 border-2 border-black bg-blue-800 rounded text-white  px-2 py-0.5" onClick={()=>{swap()}}>Swap</button>
+        <button className="absolute left-1/2 -translate-1/2 border-2 border-black bg-blue-800 rounded text-white  px-3 py-0.5" onClick={()=>{swap()}}>Swap</button>
       </div>
       <div className="w-full mt-1 mb-4 ">
         <InputBox label="To" amount={convertedAmount} onAmountChange={()=>{ setConvertedAmount()}} selectCurrency={to} amountDisable={true} currencyDisable={false} onCurrencyChange={setTo} currencyOptions={options}/>
