@@ -24,7 +24,7 @@ function App() {
   } 
   return (
     <div className="w-full h-screen flex flex-wrap bg-cover bg-no-repeat justify-center items-center p-7" style={{ backgroundImage: `url(${backgroundImage})` }}>
-     <div className="w-full max-w-md mx-auto border border-gray-300 rounded-lg p-5 backdrop-blur-xs bg-white/40">
+     <div className="w-full max-w-md mx-auto border border-gray-400 rounded-lg p-5 backdrop-blur-xs bg-white/40">
      <form onSubmit={(e)=>{e.preventDefault()}}>
       <div className="w-full mb-1">
         <InputBox label="From" amount={amount} onAmountChange={setAmount} selectCurrency={from} amountDisable={false} currencyDisable={false} onCurrencyChange={setFrom} currencyOptions={options}/>
