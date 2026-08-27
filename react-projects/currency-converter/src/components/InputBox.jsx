@@ -11,7 +11,7 @@ let amountId=useId();
 
 
     return (
-        <div className={`bg-white text-sm p-3 flex rounded-2xl ${className}`}>
+        <div className={`bg-white text-sm p-3 flex rounded-xl ${className}`}>
             <div className="w-1/2">
                 <label htmlFor={amountId} className="text-gray-800 mb-2 inline-block">{label}</label>
                 <input type="number" id={amountId} placeHolder="Amount"disabled={amountDisable} value={amount}className=" p-1.5 w-full outline-none bg-transparent rounded" onChange={(e)=>{onAmountChange &&onAmountChange(Number(e.target.value))}}></input>
