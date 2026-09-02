@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <h1 style={{ fontFamily: "Brush Script MT" }} className="text-5xl text-white text-center">Password generator</h1>
-      <div className="w-full mt-20 flex justify-center "><div className="w-auto flex justify-center flex-col p-10 h-auto rounded-xl bg-slate-800 ">
+      <div className="w-full mt-20 flex justify-center "><div className="w-auto flex justify-center flex-col p-10 h-auto rounded-xl bg-slate-700 ">
         <div className="flex"> <input ref={ref} className="bg-white p-2 text-black h-10 rounded" value={password} readOnly type="text" ></input>
           <button className="bg-blue-700 cursor-pointer hover:bg-blue-700 h-10 w-auto p-2 rounded -2xl ml-2 truncate text-white" onClick={()=>{
             window.navigator.clipboard.writeText(ref.current.value);
