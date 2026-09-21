@@ -9,7 +9,7 @@ body{
     height:45px;
     text-align:center;
     border:2px solid white;
-    border-radius:5px;
+    border-radius:6px;
 }
 #headbox{
     display:flex;
