@@ -17,7 +17,7 @@ let amountId=useId();
                 <input type="number" id={amountId} placeHolder="Amount"disabled={amountDisable} value={amount}className=" p-1.5 w-full outline-none bg-transparent rounded" onChange={(e)=>{onAmountChange &&onAmountChange(Number(e.target.value))}}></input>
 
             </div>
-            <div className="w-1/2 flex flex-wrap text-right px-2 justify-end">
+            <div className="w-1/2 flex flex-wrap text-right px-1 justify-end">
                 <p  className="text-gray-600 w-full">Currency Type</p>
                 <select value={selectCurrency} onChange={(e)=>{onCurrencyChange&&onCurrencyChange((e.target.value))}} disabled={currencyDisable} className="text-gray-600 cursor-pointer outline-none p-1 bg-gray-100 rounded-lg mb-2">
                    {currencyOptions.map((currency)=>(
