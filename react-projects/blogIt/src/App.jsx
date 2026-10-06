@@ -25,7 +25,7 @@ function App() {
     .finally(()=>{setLoading(false);})
   },[])
   if(!loading){
-     return(<><div className="flex flex-wrap content-between bg-gray-900 min-h-screen ">
+     return(<><div className="flex flex-wrap content-between bg-gray-800 min-h-screen ">
      <Header />
      <main>
     
