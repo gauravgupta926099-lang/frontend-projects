@@ -34,7 +34,7 @@ function App() {
       </div></>)
   }
   else{
-    return(<><div className="flex justify-center items-center bg-gray-900 h-screen w-full">
+    return(<><div className="flex justify-center items-center bg-gray-800 h-screen w-full">
       <div className="text-white text-2xl">Loading...</div>
       </div></>)
   }
